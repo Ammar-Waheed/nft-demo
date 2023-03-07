@@ -8,6 +8,9 @@ function MetamaskConnect(props) {
     const { walletAddress, setWalletAddress } = useContext(WalletContext)
 
     useEffect(() => {
+        window.ethereum.on("accountsChanged", () => {
+            loadConnectedWallet()
+         })
         async function loadConnectedWallet() {
             const accounts = await window.ethereum.request({
                 method: "eth_accounts"
