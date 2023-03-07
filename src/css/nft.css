@@ -4,17 +4,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 30px;
-    height: 45%;
+    min-height: 45%;
     width: 120%;
     border: 2px solid black;
-    overflow: auto;
     padding-bottom: 3vh;
     padding-top: 3vh;
     padding-left: 3vw;
     padding-right: 3vw;
     border-radius: 20px;
     margin-left: 16%;
-    margin-bottom: -25%;
+    margin-bottom: 10%;
 }
 
 .card {
