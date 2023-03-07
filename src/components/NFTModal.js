@@ -19,6 +19,7 @@ const NFTModal = (props) => {
                         <h3>Description</h3>
                         <p>
                             {props.desc}
+                            lorem
                         </p>
                     </div>
                     <a
